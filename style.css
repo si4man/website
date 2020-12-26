@@ -1,10 +1,10 @@
 body {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-image: url('https://wallpapershome.ru/images/pages/pic_h/6505.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%
+    background-size: 100%;
 }
 
 h1 {
@@ -16,6 +16,8 @@ h2 {
 }
 
 h4 {
+    margin: 0;
+    margin-top: 5px;
     color: #ffffff;
 }
 
@@ -29,7 +31,9 @@ a {
 }
 
 .footer {
-    margin-top: 13vh;
+    /* margin: 0; */
+    margin-top: 12vh;
+    text-align: center;
 }
 
 /* .cloud {
