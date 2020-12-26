@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://wallpapershome.ru/images/pages/pic_h/6505.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+h1 {
+    color: #45883b;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+a {
+    color: #56a74a;
+}
+
+.text {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer {
+    margin-top: 13vh;
+}
+
+/* .cloud {
+    width: 25%;
+    height: 25%;
+    position: relative;
+} */
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#player {
+    width: 640px;
+    height: 360px;
+} 
