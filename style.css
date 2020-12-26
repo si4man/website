@@ -1,11 +1,12 @@
 body {
     /* display: flex;
     flex-direction: column; */
+    background: url('https://wallpapershome.ru/images/pages/pic_h/6505.jpg');
     background-image: url('https://wallpapershome.ru/images/pages/pic_h/6505.jpg');
     /* background-position: center; */
     background-repeat: no-repeat;
     /* background-size: 100%; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 h1 {
@@ -33,7 +34,7 @@ a {
 
 .footer {
     /* margin: 0; */
-    margin-top: 12vh;
+    margin-top: 9vh;
     text-align: center;
 }
 
@@ -43,12 +44,12 @@ a {
     position: relative;
 } */
 
-.video {
+/* .video {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 #player {
     width: 640px;
