@@ -5,7 +5,14 @@ function getVideo() {
 
     let iFrame = document.getElementById('iframe');
 
-    iFrame.src = `https://www.youtube.com/embed/${array[getNumber]}`;
+    const currentVideo = array[getNumber];
+
+    iFrame.src = `https://www.youtube.com/embed/${currentVideo}`;
+
+    if (currentVideo == "EsPMpFKvZIA") {
+        document.getElementsByClassName("container").style.background =  url('https://images7.alphacoders.com/101/thumb-1920-1014075.jpg');
+    }
+
 }
 
 
